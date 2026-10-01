@@ -1,0 +1,22 @@
+{
+  "name": "campushub",
+  "version": "0.1.0",
+  "description": "Plataforma de gerenciamento de eventos acadêmicos universitários baseada em SDD",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md}\"",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
